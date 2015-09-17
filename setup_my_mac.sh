@@ -6,8 +6,6 @@ INS="installing"
 
 BREW_BASE="ansible autoconf caskroom/cask/brew-cask exiftool exiv2 ffmpeg git lame s3cmd sqlite wget fontconfig freetype gdbm libpng libyaml libvo-aacenc media-info xz yasm zeroms sip"
 
-#CASK_PACKAGES="vagrant virtualbox iterm2 tower mediainfo macvim aquamacs pycharm  android-studio google-chrome firefox"
-
 CASK_BASE="vagrant virtualbox iterm"
 CASK_SOURCECTL="git mercurial tower"
 CASK_EDITORS="macvim aquamacs textwrangler"
