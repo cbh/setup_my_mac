@@ -3,6 +3,11 @@ Automates installation of some common developer tools: IDEs, editors, browsers a
 
 This is a simple script that installs Xcode, various IDEs, editors and other tools I find useful. 
 
+To run:
+```
+$ ./setup_my_mac.sh
+```
+
 The current list is below (a complete list of available casks is supplied as a separate file):
 ```
 installing XCode and command line tools
