@@ -34,14 +34,14 @@ echo "$INS brew basics"
 for app in `echo $BREW_BASE`; 
 do 
     echo " - $INS $app"
-    #brew install $app
+    brew install $app
 done
 
 echo "$INS cask packages"
 for app in `echo $CASK_PACKAGES`; 
 do 
     echo " - $INS $app"
-    #brew cask install $app
+    brew cask install $app
 done
 
 #TODO: provision .profile
