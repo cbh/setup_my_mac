@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars:
+    RPREFIX: "R-3.2.2"
+  tasks:
+    - name: fetch R package
+      get_url: url="https://cran.r-project.org/bin/macosx/{{ RPREFIX }}.pkg" dest="./{{ RPREFIX }}.pkg"
+    - name: install R
+      command: installer -pkg "./{{ RPREFIX }}.pkg" -target /
+      sudo: yes
