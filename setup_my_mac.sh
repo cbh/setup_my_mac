@@ -10,7 +10,7 @@ BREW_BASE="ansible autoconf caskroom/cask/brew-cask exiftool exiv2 ffmpeg git la
 
 CASK_BASE="vagrant virtualbox iterm"
 CASK_SOURCECTL="git mercurial tower"
-CASK_EDITORS="macvim aquamacs"
+CASK_EDITORS="macvim aquamacs textwrangler"
 CASK_IDES="pycharm android-studio"
 CASK_BROWSERS="google-chrome firefox"
 CASK_METADATA="exiftool exiv2 mediainfo"

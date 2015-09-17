@@ -38,6 +38,7 @@ installing cask packages
  - installing tower
  - installing macvim
  - installing aquamacs
+ - installing textwrangler
  - installing pycharm
  - installing android-studio
  - installing google-chrome
