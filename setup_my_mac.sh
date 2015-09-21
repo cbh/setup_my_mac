@@ -4,17 +4,17 @@ set -e
 
 INS="installing"
 
-BREW_BASE="ansible autoconf caskroom/cask/brew-cask exiftool exiv2 ffmpeg git lame s3cmd sqlite wget fontconfig freetype gdbm libpng libyaml libvo-aacenc media-info xz yasm zeroms sip"
+BREW_BASE="ansible autoconf caskroom/cask/brew-cask exiftool exiv2 ffmpeg git lame s3cmd sqlite wget fontconfig freetype gdbm libpng libyaml libvo-aacenc media-info xz yasm sip"
 
-CASK_BASE="vagrant virtualbox iterm"
-CASK_SOURCECTL="git mercurial tower"
+CASK_BASE="vagrant virtualbox iterm2"
+CASK_SOURCECTL="git tower"
 CASK_EDITORS="macvim aquamacs textwrangler"
 CASK_IDES="pycharm android-studio"
 CASK_BROWSERS="google-chrome firefox"
 CASK_METADATA="exiftool exiv2 mediainfo"
-CASK_MULTIMEDIA="mplayerx xld vlc audacity air-video-server"
-CASK_MONITORS="little-snitch istat-menus hyperdock disk-inventory-x meteorologist" 
-CASK_OTHER="1password opencv"  # limechat filebot 
+#CASK_MULTIMEDIA="mplayerx xld vlc air-video-server"
+#CASK_MONITORS="little-snitch istat-menus hyperdock disk-inventory-x meteorologist" 
+#CASK_OTHER="1password opencv"  # limechat filebot 
 
 CASK_PACKAGES="$CASK_BASE $CASK_SOURCECTL $CASK_EDITORS $CASK_IDES $CASK_BROWSERS $CASK_MULTIMEDIA $CASK_MONITORS $CASK_OTHER"
 
